@@ -22,7 +22,7 @@
 ![Maven build - Ubuntu latest](https://github.com/padaiyal/jMavenProjectTemplate/workflows/Maven%20build%20-%20Ubuntu%20latest/badge.svg?branch=main)
 ![Maven build - Windows latest](https://github.com/padaiyal/jMavenProjectTemplate/workflows/Maven%20build%20-%20Windows%20latest/badge.svg?branch=main)
 ![Maven build - MacOS latest](https://github.com/padaiyal/jMavenProjectTemplate/workflows/Maven%20build%20-%20MacOS%20latest/badge.svg?branch=main)
-
+![Publish to GitHub packages](https://github.com/padaiyal/jMavenProjectTemplate/workflows/Publish%20to%20GitHub%20packages/badge.svg)
 </div>
 
 <!--
