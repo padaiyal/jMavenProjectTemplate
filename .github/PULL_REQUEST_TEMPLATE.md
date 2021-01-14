@@ -13,8 +13,10 @@ please explain why.
 - [ ] **No parameters are hardcoded.** Should be loaded as properties instead. If there needs to be hardcoded properties, explain why.
 - [ ] **All information to be logged/displayed to the user are internationalized.** If not, explain why. 
 - [ ] **README.md has been updated if needed.**
+- [ ] **pom.xml version is set to the latest date** If not, explain why.
 
 ## Assignee's Checklist
 - [ ] **All GitHub action checks have passed.**
 - [ ] **All reviewers have approved.**
 - [ ] **Relevant documentation has been updated if needed.**
+- [ ] **pom.xml version is set to the latest date** If not, explain why.
