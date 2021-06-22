@@ -7,7 +7,7 @@
   <!-- Update the following three entries -->
   <groupId>org.padaiyal</groupId>
   <artifactId>mavenprojecttemplate</artifactId>
-  <version>2021.05.10</version>
+  <version>2021.06.22</version>
 
   <parent>
     <groupId>org.padaiyal</groupId>
