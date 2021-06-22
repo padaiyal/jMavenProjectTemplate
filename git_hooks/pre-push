@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Fetch the latest reference and rebase.
+git fetch --all --tags --prune
+git rebase origin/main
+
+# Run maven build.
+mvn -e clean test verify --file pom.xml

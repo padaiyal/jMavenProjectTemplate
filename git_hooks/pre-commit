@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Update version in pom.xml.
+sed -i "0,/<version>.*<\/version>/s//<version>$(date +%Y.%m.%d)<\/version>/g" pom.xml
+git add pom.xml
+
+
