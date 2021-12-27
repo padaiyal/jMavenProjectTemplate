@@ -31,5 +31,10 @@ jobs:
         path: ~/.m2
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
         restore-keys: ${{ runner.os }}-m2
+    - id: install-secret-key
+      name: Install gpg secret key
+      run: |
+        cat <(echo -e "${{ secrets.MAVEN_CENTRAL_GPG_PRIVATE_KEY }}") | gpg --batch --import
+        gpg --list-secret-keys --keyid-format LONG
     - name: Build with Maven
-      run: mvn -e clean test verify --file pom.xml
+      run: mvn -e -Dgpg.passphrase=${{ secrets.MAVEN_CENTRAL_GPG_PASSWORD }} clean test verify --file pom.xml
