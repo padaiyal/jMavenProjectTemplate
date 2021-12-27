@@ -41,4 +41,4 @@ jobs:
                 --no-transfer-progress \
                 --batch-mode \
                 -Dgpg.passphrase=${{ secrets.MAVEN_CENTRAL_GPG_PASSWORD }} \
-                clean deploy
+                -e clean test verify --file pom.xml
