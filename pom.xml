@@ -5,15 +5,14 @@
   <modelVersion>4.0.0</modelVersion>
  
   <!-- Update the following three entries -->
-  <groupId>org.padaiyal</groupId>
+  <groupId>io.github.padaiyal</groupId>
   <artifactId>mavenprojecttemplate</artifactId>
   <version>2021.06.22</version>
 
   <parent>
-    <groupId>org.padaiyal</groupId>
+    <groupId>io.github.padaiyal</groupId>
     <artifactId>popper</artifactId>
-    <version>2021.01.22</version>
-    <relativePath>jPopper</relativePath>
+    <version>2021.12.19</version>
   </parent>
 
   <distributionManagement>
