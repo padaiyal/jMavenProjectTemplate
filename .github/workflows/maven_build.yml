@@ -16,7 +16,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
         # Other versions of java can be configured as well - https://github.com/actions/setup-java#basic
-        java: [14.0.1]
+        java: [17.0.2]
     steps:
     - uses: actions/checkout@v2
     - name: Checkout submodules
